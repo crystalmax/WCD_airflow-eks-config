@@ -9,9 +9,9 @@ spec:
   releaseName: airflow-dev
     # serviceAccountName: app
   chart:
-    repository: https://edwinguo.github.io/airflow-eks-helm-chart
+    repository: https://crystalmax.github.io/airflow-eks-helm-chart
     name: airflow
-    version: 1.0.0
+    version: 1.0.8
   values:
     images:
       airflow:
